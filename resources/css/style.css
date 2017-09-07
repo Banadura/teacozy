@@ -37,6 +37,10 @@ h2, h4 {
   margin: auto;
 }
 
+h5 {
+  font-weight: normal;
+}
+
 #mission {
   display: flex;
   position: relative;
@@ -47,4 +51,46 @@ h2, h4 {
   flex-direction: column;
   justify-content: center;
   z-index: 0;
+}
+
+#featured {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+}
+
+.selections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#locations {
+  display: flex;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.location {
+  height: 250px;
+  width: 300px;
+  background-color: black;
+}
+
+#locations h4 {
+  font-weight: normal;
 }
