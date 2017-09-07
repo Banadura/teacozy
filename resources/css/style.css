@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0px;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   z-index: 5;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
 
 header img {
@@ -25,6 +27,7 @@ header img {
 
 a {
   color: seashell;
+  text-decoration: underline;
 }
 
 nav a {
@@ -45,18 +48,23 @@ h5 {
   display: flex;
   position: relative;
   height: 700px;
-  width: 1200px;
   padding-top: 72px;
   background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   flex-direction: column;
   justify-content: center;
   z-index: 0;
 }
 
+#mission img {
+  width: 1200px;
+}
 #featured {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #featured img {
@@ -68,18 +76,23 @@ h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 15px 15px 10px 15px;
 }
 
-#locations {
+#locationbox {
   display: flex;
   background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
@@ -89,8 +102,26 @@ h5 {
   height: 250px;
   width: 300px;
   background-color: black;
+  margin: 10px 20px;
 }
 
-#locations h4 {
+.locationtitle h2 {
+  color: seashell;
+  background-color: transparent;
+  padding-bottom: 15px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#locationbox h4 {
   font-weight: normal;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
 }
