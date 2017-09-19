@@ -95,6 +95,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
   padding: 0px 20px;
 }
 
